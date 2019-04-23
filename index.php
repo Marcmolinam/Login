@@ -30,26 +30,24 @@ and open the template in the editor.
     <div class="row">
         <div class="col-md-offset-5 col-md-4 text-center">
             <h1 class='text-white'>Login Form</h1>
-            <div class="form-login">
-            <form method="POST" action="<?=URLBASE?>controladores/AccUsuario.php">
-            
+            <div class="form-login"></br>
                 <h4>Secure Login</h4>
                 </br>
-                <input type="text" id="nomusu" class="form-control input-sm chat-input" placeholder="username"/>
+                <input type="text" id="usuario" class="form-control input-sm chat-input" placeholder="username"/>
                 </br></br>
                 <input type="password" id="clave" class="form-control input-sm chat-input" placeholder="password"/>
                 </br></br>
                 <div class="wrapper">
                         <span class="group-btn">
-                            <!-- como utilizar un action con el metodo post -->
-                            <a href="#" class="btn btn-primary btn-md">Login <i class="fa fa-sign-in"></i></a>
+                            <a href="javascript:AccUsuario.submit()" class="btn btn-primary btn-md">Login <i class="fa fa-sign-in"></i></a>
                             <a href="#" class="btn btn-primary btn-md">Cambiar Clave <i class="fa fa-sign-in"></i></a>
                         </span>
                 </div>
-            </form>
-            </div>
             </div>
         </div>
     </div>
     </body>
+    <script>
+      
+    </script>
 </html>
